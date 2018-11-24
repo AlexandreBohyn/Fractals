@@ -1,36 +1,40 @@
-## Welcome to GitHub Pages
+## Welcome to my website.
 
-You can use the [editor on GitHub](https://github.com/AlexandreBohyn/Fractals/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Here is a list of the programs I'm working on:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- Matrix green rain screen
+- Random red rain
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### Setup
 
-- Bulleted
-- List
+#### Ceate a new project with all the p5 libraries:
 
-1. Numbered
-2. List
+To create a new project, I can use the cmd and p5 manager
+if I type
+```
+p5 generate --bundle [project_name]
+```
+It generates:
 
-**Bold** and _Italic_ and `Code` text
+- libraries folder
+- sketch.js file
+- index.html file
 
-[Link](url) and ![Image](src)
+and my p5 project is ready to run.
+
+#### Launch a Local server
+
+To launch a local server on my computer that will render the javascript files,
+I have to input the following command into my cmd line 
+
+```
+python -m http.server
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AlexandreBohyn/Fractals/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+and then the server is available at [this web adress.](localhost:8000)
 
 ### Support or Contact
 
