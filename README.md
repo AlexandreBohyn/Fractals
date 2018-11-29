@@ -4,6 +4,8 @@ You can use the [editor on GitHub](https://github.com/AlexandreBohyn/Fractals/ed
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+[Mandelbrot set](mandelbrot.md)
+
 ![Complex plane represented in two dimensions](Complex.svg)
 
 
