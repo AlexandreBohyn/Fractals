@@ -4,6 +4,9 @@ You can use the [editor on GitHub](https://github.com/AlexandreBohyn/Fractals/ed
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+![Complex plane represented in two dimensions](Complex.svg)
+
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
@@ -12,6 +15,8 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 Syntax highlighted code block
 
 # Header 1
+
+
 ## Header 2
 ### Header 3
 
@@ -34,5 +39,5 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 ### Support or Contact
 
-Having trouble with this website ? 
-Contact me: alexandre.bohyn@gmail.com 
+Having trouble with this website ?
+Contact me: alexandre.bohyn@gmail.com
