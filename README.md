@@ -8,6 +8,9 @@ Here are some test mathematics:
 
 $$R^2$$
 
+The mandelbrot set is defined as the set of complex number $$c$$ where $$f(z) = z^2 +c$$.
+
+
 [Mandelbrot set](mandelbrot.md)
 
 ![Complex plane represented in two dimensions](Complex.svg)
