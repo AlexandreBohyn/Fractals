@@ -28,10 +28,24 @@ Fortunately, we know that any complex number $$c$$ can be written as number with
 
 $$ c = a + bi \text{.}$$
 
-From here, two dimensional representation is straightforward. We plot the real part of the number on the x-axis and the imaginary part on the y-axis. This gives us a grif to represent any complex number. As a example the image below display two complex numbers $$z_1$$ and $$z_2$$ using this representation technique.
+From here, two dimensional representation is straightforward. We plot the real part of the number on the x-axis and the imaginary part on the y-axis. This gives us a grid to represent any complex number. As a example the image below display two complex numbers $$z_1$$ and $$z_2$$ using this representation technique.
 
-![Complex representation in two dimensions](Complex.svg)
+<img src="Complex.svg" alt="Complex numbers represented in 2 dimensions" width="500"/>
 
+### Sequence computation
+Now that we have a way of representing our complex numbers in 2 dimensions, we need to compute the sequence for each number and see if it goes to infinity. Theoretically, the number of iteration should be infinite but in our practical case, it is impossible to do so.
+
+Therefore, let us define $$n$$, the number of iteration for each complex, i.e. the length of the sequence. And let us fix $$n=100$$ for good measure. We now need to express our sequence in terms of *real* and *imaginary* part.
+
+$$ c = a +bi \text{,} \quad c^2=a^2+2abi+b^2i^2 \quad \text{and} \quad i^2 = -1$$
+
+So we can rewrite $$c^2$$ as
+
+$$  a^2+2abi-b^2 = (a^2-b^2) + (2ab)i $$
+
+And here, we clearly see that this number is also a complex where the new $$a_{j+1}$$ is $$a_j^2-b_j^2$$ and the new $$b_{j+1}$$ is $$2a_jb_j$$. Let's not forget that at each iteration is also added $$c$$, the "original" complex number at which the sequence is computed. We can write it $$a_{0} +b_{0}i$$. Therefore, if we generalize this we can write this recursive definition:
+
+$$a_{j+1}+b_{j+1} = (a_j^2-b_j^2 + a_0) + (2a_jb_j + b_0)i \quad \text{for} \quad j=1,\ldots,n$$
 
 
 
