@@ -1,8 +1,11 @@
 # Mandelbrot set
 In this section we define the Mandelbrot set and give the code for visualisation in Python and JavaScript.
 
+---
+
 ## A bit of history...
 Thes Mandelbrot set was first investigated in the 20th century by the French mathematicians Pierre Fatou and Gaston Julia (see the [Julia Set](julia_set.md)). It was popularized in 1980 thanks the visualization of the set created by [Benoit Mandelbrot](https://en.wikipedia.org/wiki/Benoit_Mandelbrot), who worked at IBM at the time.
+
 
 ## Mathematical definition
 The Mandelbrot set is defined as the set of complex numbers $$c$$ where the function $$f_c(z) = z^2 +c$$ remains bounded when iterated in zero.
@@ -27,7 +30,7 @@ $$ c = a + bi \text{.}$$
 
 From here, two dimensional representation is straightforward. We plot the real part of the number on the x-axis and the imaginary part on the y-axis. This gives us a grif to represent any complex number. As a example the image below display two complex numbers $$z_1$$ and $$z_2$$ using this representation technique.
 
-[Complex representation in two dimensions](Complex.svg)
+![Complex representation in two dimensions](Complex.svg)
 
 
 
