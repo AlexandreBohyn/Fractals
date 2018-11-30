@@ -9,17 +9,29 @@ The Mandelbrot set is defined as the set of complex numbers $$c$$ where the func
 
 Less formally, it is all the complex numbers for which the sequence
 
-$$ f_c(0), f_c(f_c(0)), f_c(f_c(f_c(0))), \ldots $$
+$$ f_c(0),\quad f_c(f_c(0)),\quad f_c(f_c(f_c(0))), \ldots $$
 
 doesn't goes to infinity and is bounded by a certain value.
 
 Knowing that $$f_c(z) = z^2 + c$$, we can write the sequence as
 
-$$ c, c^2 + c, (c^2+c)^2 + c, \ldots $$
+$$ c,\quad c^2 + c,\quad (c^2+c)^2 + c, \ldots $$
 
-Where the complex number $$c$$ can be written as number with a real part ($$a$$) and an imaginary part ($$b$$)
+
+## Graphical representation
+To represent this set, we need to compute the sequence for each number and then plot the boundaries of the set.
+In order to have a graphical representation, we need a way of displaying a single complex number $$c$$ in 2 dimensions.
+Fortunately, we know that any complex number $$c$$ can be written as number with a real part ($$a$$) and an imaginary part ($$b$$)
 
 $$ c = a + bi \text{.}$$
+
+From here, two dimensional representation is straightforward. We plot the real part of the number on the x-axis and the imaginary part on the y-axis. This gives us a grif to represent any complex number. As a example the image below display two complex numbers $$z_1$$ and $$z_2$$ using this representation technique.
+
+[Complex representation in two dimensions](Complex.svg)
+
+
+
+
 
 
 
