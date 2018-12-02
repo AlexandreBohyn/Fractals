@@ -30,7 +30,7 @@ $$ c = a + bi \text{.}$$
 
 From here, two dimensional representation is straightforward. We plot the real part of the number on the x-axis and the imaginary part on the y-axis. This gives us a grid to represent any complex number. As a example the image below display two complex numbers $$z_1$$ and $$z_2$$ using this representation technique.
 
-<img src="Complex.svg" alt="Complex numbers represented in 2 dimensions" width="500"/>
+<img src="Complex.svg" alt="Complex numbers represented in 2 dimensions" width="500" class="center"/>
 
 ### Sequence computation
 Now that we have a way of representing our complex numbers in 2 dimensions, we need to compute the sequence for each number and see if it goes to infinity. Theoretically, the number of iteration should be infinite but in our practical case, it is impossible to do so.
